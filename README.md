@@ -149,7 +149,7 @@ This “hybrid” setting evaluates how much classical performance improves when
 | HOG + SVM                    | HOG descriptors    | 0.xx          | 0.xx     |
 | k‑NN on raw pixels           | Flattened pixels   | 0.xx          | 0.xx     |
 
-Interpretation (example wording you can adapt):
+Interpretation:
 - ResNet‑18 achieves the strongest overall performance.  
 - Classical models on deep features closely approach (or sometimes match) ResNet‑18 accuracy, confirming that good representations matter more than the classifier itself.  
 - Classical models on hand‑crafted or raw features lag behind, especially on fine‑grained classes like cats vs dogs.
