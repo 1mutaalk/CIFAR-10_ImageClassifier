@@ -181,7 +181,6 @@ To go beyond raw accuracy differences, we consider **paired testing**:
 
 - Treat each test image as a paired observation between two models.  
 - For example, define a binary variable indicating whether ResNet‑18 is correct and SVM is wrong, vs SVM correct and ResNet‑18 wrong.  
-- Apply a **McNemar’s test** (or similar paired proportion test) to see if the performance difference is statistically significant.  
 
 In our experiments (placeholders you can adapt):
 
