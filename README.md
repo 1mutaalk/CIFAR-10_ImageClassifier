@@ -175,21 +175,6 @@ These visualizations help identify:
 - Which classes are most frequently confused (e.g., truck vs car).  
 - Whether the model is under‑ or over‑fitting.  
 
-### Statistical Significance Tests
-
-To go beyond raw accuracy differences, we consider **paired testing**:
-
-- Treat each test image as a paired observation between two models.  
-- For example, define a binary variable indicating whether ResNet‑18 is correct and SVM is wrong, vs SVM correct and ResNet‑18 wrong.  
-
-In our experiments (placeholders you can adapt):
-
-- ResNet‑18 vs SVM on deep features:  
-  - Accuracy difference is modest but McNemar’s test suggests it is / is not statistically significant at α = 0.05.  
-- Classical on raw vs classical on deep features:  
-  - Differences are clearly significant, confirming strong benefits from deep representations.
-
-(You can summarize the exact p‑values from your notebook if you compute them.)
 
 ### Business Impact Analysis
 
