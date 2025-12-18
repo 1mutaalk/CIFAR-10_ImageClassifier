@@ -144,16 +144,16 @@ This “hybrid” setting evaluates how much classical performance improves when
 After training for 25 epochs , following are the results of some of the classes.
 
 - horses
-![images/horses_gen.png](images/horses_gen.png)
+![images/horses_gen.png](Images/horses.png)
 
 - cars
-![images/gen_cars.png](images/gen_cars.png)
+![images/gen_cars.png](Images/cars.png)
 
 - Frogs
-![images/frogs_gen.png](images/frogs_gen.png)
+![images/frogs_gen.png](Images/frogs.png)
 
 - trucks
-![images/trucks_gen.png](images/trucks_gen.png)
+![images/trucks_gen.png](Images/trucks.png)
 
 
 
