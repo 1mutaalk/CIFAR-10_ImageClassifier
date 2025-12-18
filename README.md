@@ -162,11 +162,11 @@ This “hybrid” setting evaluates how much classical performance improves when
 
 ### Performance Comparison (Test Set)
 
-| Model            | Precision | Recall | F1-Score |
-|------------------|-----------|--------|----------|
-| Artificial Neural Network (ANN) | 0.877| 0.89 | 0.88 |
-| Support Vector Machine (SVM)    | 0.86 | 0.86 | 0.86 |
-| k-Nearest Neighbors (k-NN)      | 0.866 | 0.83 | 0.84 |
+| Model            | Precision | Recall | F1-Score |ROC AUC|
+|------------------|-----------|--------|----------|--------|
+| Artificial Neural Network (ANN) | 0.862| 0.89 | 0.864 |0.9894|
+| Support Vector Machine (SVM)    | 0.86 | 0.86 | 0.864 |0.9813|
+| k-Nearest Neighbors (k-NN)      | 0.86 | 0.83 | 0.861 |0.9565|
 
    
 
