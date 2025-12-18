@@ -141,7 +141,7 @@ This “hybrid” setting evaluates how much classical performance improves when
 
 ### Performance Comparison (Test Set)
 
-| Model                         | Features           | Test Accuracy 
+| Model                        |Features            |Test Accuracy(Overall)| 
 |------------------------------|--------------------|--------------:|
 | ResNet‑18 (fine‑tuned)       | Raw images         |   0.87        |     
 | SVM on deep features         | ResNet‑18 (512‑D)  | 0.8640        |     
