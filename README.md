@@ -144,12 +144,18 @@ This “hybrid” setting evaluates how much classical performance improves when
 
 
 - cars
+  
+  
 ![images/gen_cars.png](Images/cars.png)
 
 - Frogs
+
+  
 ![images/frogs_gen.png](Images/frogs.png)
 
 - trucks
+
+  
 ![images/trucks_gen.png](Images/trucks.png)
 
 
@@ -158,8 +164,8 @@ This “hybrid” setting evaluates how much classical performance improves when
 
 | Model            | Precision | Recall | F1-Score |
 |------------------|-----------|--------|----------|
-| Artificial Neural Network (ANN) | 0.877| 0.89 | 0.89 |
-| Support Vector Machine (SVM)    | 0.86 | 0.86 | 0.87 |
+| Artificial Neural Network (ANN) | 0.877| 0.89 | 0.88 |
+| Support Vector Machine (SVM)    | 0.86 | 0.86 | 0.86 |
 | k-Nearest Neighbors (k-NN)      | 0.866 | 0.83 | 0.84 |
 
    
