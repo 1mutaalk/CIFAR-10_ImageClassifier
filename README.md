@@ -140,11 +140,8 @@ This “hybrid” setting evaluates how much classical performance improves when
 
 ## Results & Analysis
 
+ Following are the results of some of the classes.
 
-After training for 25 epochs , following are the results of some of the classes.
-
-- horses
-![images/horses_gen.png](Images/horses.png)
 
 - cars
 ![images/gen_cars.png](Images/cars.png)
