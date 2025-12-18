@@ -11,7 +11,10 @@
 
 ## Abstract
 
-This project investigates how well **classical machine learning** methods perform on the CIFAR‑10 image classification task compared to a modern **deep learning** architecture, and how performance changes when classical models are combined with deep features. Using PyTorch and scikit‑learn, we fine‑tune a ResNet‑18 model and train SVM and k‑NN classifiers on (1) hand‑crafted HOG features, (2) raw pixels, and (3) ResNet‑based deep features. Results show that ResNet‑18 and classical models trained on deep features significantly outperform traditional pipelines based on raw pixels or HOG descriptors, demonstrating the value of representation learning for complex vision tasks.
+This project investigates how well **classical machine learning** methods perform on the CIFAR‑10 image classification task compared to a modern **deep learning** architecture, and how performance changes when classical models are combined with deep features. Using PyTorch and scikit‑learn, we fine‑tune a ResNet‑18 model and train SVM and k‑NN classifiers on 
+(1) hand‑crafted HOG features 
+(2) raw pixels, and 
+(3) ResNet‑based deep features. Results show that ResNet‑18 and classical models trained on deep features significantly outperform traditional pipelines based on raw pixels or HOG descriptors, demonstrating the value of representation learning for complex vision tasks.
 
 ---
 
