@@ -238,3 +238,4 @@ Possible extensions include:
 - Official PyTorch documentation: https://pytorch.org/  
 - Official scikit‑learn documentation: https://scikit-learn.org/  
 - CIFAR‑10 dataset description: https://www.cs.toronto.edu/~kriz/cifar.html
+- Very helpful github repository https://github.com/Hydrino/ACGAN_cifar10/tree/master
