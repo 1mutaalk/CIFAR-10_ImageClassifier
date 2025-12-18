@@ -141,11 +141,12 @@ This “hybrid” setting evaluates how much classical performance improves when
 
 ### Performance Comparison (Test Set)
 
-| Model                        |Features            |Test Accuracy(Overall)| 
-|------------------------------|--------------------|--------------:|
-| ResNet‑18 (fine‑tuned)       | Raw images         |   0.87        |     
-| SVM on deep features         | ResNet‑18 (512‑D)  | 0.8640        |     
-| k‑NN on deep features        | ResNet‑18 (512‑D)  | 0.0.8618      |     
+| Model            | Precision | Recall | F1-Score |
+|------------------|-----------|--------|----------|
+| Artificial Neural Network (ANN) | 0.89 | 0.89 | 0.90 |
+| Support Vector Machine (SVM)    | 0.86 | 0.86 | 0.87 |
+| k-Nearest Neighbors (k-NN)      | 0.867 | 0.83 | 0.84 |
+
    
 
 Interpretation:
