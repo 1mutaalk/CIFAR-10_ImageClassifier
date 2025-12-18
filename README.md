@@ -141,13 +141,12 @@ This “hybrid” setting evaluates how much classical performance improves when
 
 ### Performance Comparison (Test Set)
 
-| Model                         | Features           | Test Accuracy | Macro F1 |
-|------------------------------|--------------------|--------------:|---------:|
-| ResNet‑18 (fine‑tuned)       | Raw images         | 0.xx          | 0.xx     |
-| SVM on deep features         | ResNet‑18 (512‑D)  | 0.xx          | 0.xx     |
-| k‑NN on deep features        | ResNet‑18 (512‑D)  | 0.xx          | 0.xx     |
-| HOG + SVM                    | HOG descriptors    | 0.xx          | 0.xx     |
-| k‑NN on raw pixels           | Flattened pixels   | 0.xx          | 0.xx     |
+| Model                         | Features           | Test Accuracy 
+|------------------------------|--------------------|--------------:|
+| ResNet‑18 (fine‑tuned)       | Raw images         |   0.87        |     
+| SVM on deep features         | ResNet‑18 (512‑D)  | 0.8640        |     
+| k‑NN on deep features        | ResNet‑18 (512‑D)  | 0.0.8618      |     
+   
 
 Interpretation:
 - ResNet‑18 achieves the strongest overall performance.  
